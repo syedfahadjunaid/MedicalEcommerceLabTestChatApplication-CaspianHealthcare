@@ -1,0 +1,42 @@
+.subtotalcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 325px;
+    height: 260px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: justify;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.subtotalcard_subtotal,.subtotalcard_shipping,.subtotalcard_total,.subtotalcard_loaction{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: justify !important;
+    margin-bottom: 15px;
+}
+.subtotalcard_total_total{
+    color: #28A745;
+}
+.subtotalcard_subtotal>p,.subtotalcard_shipping>p,.subtotalcard_total>p,.subtotalcard_loaction>p{
+    font-weight: bold;
+}
+.subtotalcard_loaction>small{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.subtotalcard_loaction_icon{
+    font-size: 15px;
+}
+.subtotalcard_checkOut{
+    margin-top: 15px;
+}
+@media only screen and (max-width:600px){
+    .subtotalcard{
+        margin-bottom: 10px;
+    }
+}

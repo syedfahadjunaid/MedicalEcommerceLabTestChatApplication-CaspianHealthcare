@@ -1,0 +1,34 @@
+.testinformationcard{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    
+}
+.testinformationcard_heading{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.testinformationcard_heading>h6{
+font-weight: 500;
+font-size: 25px;
+margin-bottom: 20px;
+}
+.testinformationcard_details{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.testinformationcard_details>p{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    padding: 15px 0;
+
+}

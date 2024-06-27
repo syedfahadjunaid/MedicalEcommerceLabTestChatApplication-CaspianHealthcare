@@ -1,0 +1,51 @@
+.patientBigCard{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.patientBigCard_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.patientBigCard_top_left{
+    flex-wrap: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.patientBigCard_top_left>img{
+    height: 250px;
+}
+.patientBigCard_top_right{
+    flex: 0.6;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.patientBigCard_top_right_top{
+display: flex;
+align-items: start;
+justify-content: center;
+}
+.patientBigCard_top_right_top>span>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.patientBigCard_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 25px;
+}
+.patientBigCard_top_right_bottom{
+    border: 1px solid black;
+    padding: 10px 20px;
+}

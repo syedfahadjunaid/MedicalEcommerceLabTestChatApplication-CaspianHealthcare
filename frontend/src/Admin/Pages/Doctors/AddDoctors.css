@@ -1,0 +1,4 @@
+.add-doctor-medical-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

@@ -1,0 +1,120 @@
+.paymentpage{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+   height: 500px;
+    margin-top: 30px;
+
+}
+.paymentpage_left{
+    width: 250px;
+    height: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    flex: 0.45;
+    /* border: 1px solid black;
+     */
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     background-color: bisque;
+     border-radius: 10px;
+}
+.paymentpage_left>h6{
+    font-size: 25px;
+    font-weight: 500;
+   
+    margin-bottom: 20px;
+}
+.paymentpage_left>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    width: 100%;
+    margin-left: 0px;
+  
+    background-color: #fff;
+    color: #111;
+    margin-bottom: 15px;
+}
+.paymentpage_right{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 600px;
+    min-height: 350px;
+    flex: 0.45;
+    margin-left: 50px;
+    padding: 10px 15px;
+
+}
+.paymentpage_right_cardNo,.paymentpage_right_expiry,.paymentpage_right_holder{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+
+}
+.paymentpage_right>p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.paymentpage_right_checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paymentpage_right>h6{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.paymentpage_right_upi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.paymentpage_right_upi>p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.paymentpage_right_upi>input{
+    height: 30px ;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-color: lightgrey;
+}
+.paymentpage_right_checkbox{
+    margin-bottom: 10px;
+}
+.paymentpage_right_checkbox>p{
+font-size: 14px;
+font-weight: 400;
+margin-left: 10px;
+}
+.paymentpage_right>h6{
+    font-size: 18px;
+    font-weight: 500;
+}
+.paymentpage_right_cardNo>p,.paymentpage_right_expiry>span>p,.paymentpage_right_holder>p{
+font-size: 14px;
+font-weight: 500;
+margin-bottom: 10px;
+}
+.paymentpage_right_cardNo>input,.paymentpage_right_expiry>span>input,.paymentpage_right_holder>input{
+    width: 270px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: lightgrey;
+}
+.paymentpage_right_checkbox>p{
+    font-size: 14px;
+    font-weight: 500;
+}

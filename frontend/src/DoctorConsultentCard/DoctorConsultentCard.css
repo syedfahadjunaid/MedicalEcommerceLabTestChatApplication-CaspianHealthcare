@@ -1,0 +1,23 @@
+.doctorconsultentcard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    height: 60px;
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.doctorconsultentcard_first{
+    font-size:16px ;
+    font-weight: 500;
+    color: #DC3545; 
+    margin-left: 5px;
+}
+.doctorconsultentcard_last{
+    font-size: 12px ;
+    font-weight: 400;
+    color: #081F32;
+    margin-right: 5px;
+}

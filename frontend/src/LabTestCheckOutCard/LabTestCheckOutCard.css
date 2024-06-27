@@ -1,0 +1,84 @@
+.labtestcheckoutcard {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 700px;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.labtestcheckoutcard_heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #2a7fba;
+  color: #fff;
+  width: 100%;
+  min-height: 70px;
+
+}
+.labtestcheckoutcard_heading > p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 15px;
+}
+.labtestcheckoutcard_details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 30px 10px;
+}
+.labtestcheckoutcard_details > div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.labtestcheckoutcard_details > div > span {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.labtestcheckoutcard_details_remove {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: row !important;
+  color: #6E798C;
+  cursor: pointer;
+}
+.labtestcheckoutcard_details_patient{
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+.labtestcheckoutcard_details_price{
+    color: #28A745;
+    font-size: 25px ;
+    font-weight: 400;
+}
+.labtestcheckoutcard_details_discount{
+    font-size: 14px;
+    font-weight: 400;
+    color: #0E080899;
+}
+.labtestcheckoutcard_details_test{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+.labtestcheckoutcard_details_testtime{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6E798C;
+}

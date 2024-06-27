@@ -1,0 +1,405 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+.about_header {
+  /* margin-top: 30px; */
+  width: 100%;
+}
+.about_whychooseus {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  width: 90%;
+}
+.about_whychooseus_left {
+  flex: 0.45;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+.about_whychooseus_left > h6 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: #2b96cc;
+}
+.about_whychooseus_left > p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 30px;
+  text-align: justify;
+}
+.about_whychooseus_left > a {
+  text-decoration: none;
+  background-color: #2b96cc;
+  padding: 10px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 18px;
+}
+.about_whychooseus_right {
+  flex: 0.45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.alice_we_are  {
+  height: 300px;
+  width: 100%;
+}
+.about_team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+  margin-top: 30px;
+}
+.about_team_top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.about_team_top > h6 {
+  font-size: 35px;
+  font-weight: 400;
+  color: #2b96cc;
+}
+.about_team_top > p {
+  width: 60%;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  word-break: break-word;
+}
+.about_team_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.about_team_bottom_card {
+  width: 300px;
+  height: 500px;
+  margin-top: 15px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #fff; */
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.about_team_bottom_card_img {
+  width: 100%;
+}
+.about_team_bottom_card_img > img {
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+}
+.about_team_bottom_card_details {
+  margin-top: 10px;
+  background-color: #fff;
+  padding: 12px;
+}
+.about_team_bottom_card_details > h6 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.about_team_bottom_card_details > p {
+  font-size: 16px;
+  font-family: 400;
+  text-align: justify;
+}
+article {
+  --img-scale: 1.001;
+  --title-color: black;
+  --link-icon-translate: -20px;
+  --link-icon-opacity: 0;
+  position: relative;
+  border-radius: 16px;
+  box-shadow: none;
+  background: #fff;
+  transform-origin: center;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+}
+
+article a::after {
+  position: absolute;
+  inset-block: 0;
+  inset-inline: 0;
+  cursor: pointer;
+  content: "";
+}
+
+/* basic article elements styling */
+article h2 {
+  margin: 0 0 18px 0;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.9rem;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+  transition: color 0.3s ease-out;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+article img {
+  max-width: 100%;
+  transform-origin: center;
+  transform: scale(var(--img-scale));
+  transition: transform 0.4s ease-in-out;
+}
+
+.article-body {
+  padding: 24px;
+}
+
+article a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #28666e;
+}
+
+article a:focus {
+  outline: 1px dotted #28666e;
+}
+
+article a .icon {
+  min-width: 24px;
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+  transform: translateX(var(--link-icon-translate));
+  opacity: var(--link-icon-opacity);
+  transition: all 0.3s;
+}
+
+/* using the has() relational pseudo selector to update our custom properties */
+article:has(:hover, :focus) {
+  --img-scale: 1.1;
+  --title-color: #28666e;
+  --link-icon-translate: 0;
+  --link-icon-opacity: 1;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+/************************ 
+  Generic layout (demo looks)
+  **************************/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.articles {
+  display: grid;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+}
+.about_our_hospital {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 90%;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.about_our_hospital_left,
+.about_our_hospital_right {
+  flex: 0.45;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+.about_our_hospital_left_heading,
+.about_our_hospital_right_heading {
+  border-bottom: 2px solid lightgrey;
+  width: 100%;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+.about_our_hospital_left_heading > h6,
+.about_our_hospital_right_heading > h6 {
+  font-size: 35px;
+  font-weight: 400;
+  color: #2b96cc;
+}
+.about_our_hospital_left_bottom,
+.about_our_hospital_right_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  border: 1ox solid black;
+}
+.about_our_hospital_left_bottom > img {
+  width: 100%;
+  height: 350px;
+}
+.about_our_hospital_right_bottom_one {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.about_our_hospital_right_bottom_one_heading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about_our_hospital_right_bottom_one_heading > span {
+  margin-right: 30px;
+}
+.about_our_hospital_right_bottom_one_heading > p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.about_our_hospital_right_bottom_one_container {
+  margin-top: 15px;
+  font-size: 16px;
+}
+.about_our_hospital_right_bottom{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+.about_our_hospital_right_bottom_one_container>p{
+    margin-bottom: 10px;
+    line-height: 25px;
+    font-size: 15px;
+
+}
+.fade-in-top {
+	-webkit-animation: fade-in-top 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-top 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2023-5-29 13:23:11
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation fade-in-top
+ * ----------------------------------------
+ */
+ @-webkit-keyframes fade-in-top {
+    0% {
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-top {
+    0% {
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .fade-in-bottom {
+	-webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2023-5-29 13:26:37
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation fade-in-bottom
+ * ----------------------------------------
+ */
+ @-webkit-keyframes fade-in-bottom {
+    0% {
+      -webkit-transform: translateY(50px);
+              transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-bottom {
+    0% {
+      -webkit-transform: translateY(50px);
+              transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+@media screen and (max-width: 960px) {
+  .article-body p {
+    display: none;
+  }
+}

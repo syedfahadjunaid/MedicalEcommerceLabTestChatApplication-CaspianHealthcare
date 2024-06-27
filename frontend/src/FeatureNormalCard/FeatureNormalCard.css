@@ -1,0 +1,18 @@
+.featurenormalcard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.featurenormalcard>img{
+    height: 150px;
+    object-fit: contain;
+}
+.featurenormalcard>span{
+    position: absolute;
+    top: 5px;
+}
+.featurenormalcard>span>img{
+    height: 140px;
+}

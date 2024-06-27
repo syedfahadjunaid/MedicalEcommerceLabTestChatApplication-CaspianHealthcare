@@ -1,0 +1,40 @@
+.labtestselect {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  min-height: 70vh;
+  margin-top: 20px;
+}
+.labtestselect_heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 25%;
+}
+.labtestselect_heading > h6 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.labtestselect_top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 20px;
+}
+.labtestselect_top_left {
+  flex: 0.65;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  flex-direction: column;
+}
+.labtestselect_top_right {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

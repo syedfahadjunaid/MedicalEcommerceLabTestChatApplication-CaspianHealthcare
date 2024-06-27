@@ -1,0 +1,15 @@
+.button_link{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    min-width: 80px;
+}
+@media(max-width:600px){
+    .button_link{
+        font-size: 12px;
+    }
+}

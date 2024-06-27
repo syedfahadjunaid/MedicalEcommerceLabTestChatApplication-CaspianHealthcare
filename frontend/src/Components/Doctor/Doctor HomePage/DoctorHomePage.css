@@ -1,0 +1,295 @@
+.doctorHomePage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.doctorHomePage_banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: #fff;
+    /* padding-top: 30px; */
+    /* padding-bottom: 30px; */
+    
+}
+.doctorHomePage_head{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    background-color: #fff;
+    margin-bottom: 30px;
+
+}
+.doctorHomePage_head_left{
+    flex: 0.35;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+    margin-top: 10px;
+}
+.doctorHomePage_head_right{
+    flex: 0.45;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.doctorHomePage_head_left>h6{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.doctorHomePage_head_left>p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.doctorHomePage_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid lightgray;
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+.doctorHomePage_card_one,.doctorHomePage_card_two,.doctorHomePage_card_three{
+    width: 440px;
+    height: 250px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.doctorHomePage_card_two{
+    width: 440px !important;
+}
+.doctorHomePage_card_one{
+    border-right: 1px solid black;
+}
+.doctorHomePage_card_three{
+    border-left: 1px solid black;
+   
+   
+}
+.doctorHomePage_card_one>strong,.doctorHomePage_card_two>strong,.doctorHomePage_card_three>strong{
+    font-size: 75px;
+    font-weight: 400;
+}
+.doctorHomePage_card_one>p,.doctorHomePage_card_two>p,.doctorHomePage_card_three>p{
+    font-size: 35px;
+    font-weight: 500;
+}
+.doctorHomePage_client_review{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+.doctorHomePage_client_review_text{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.doctorHomePage_client_review_text>h6{
+    font-size: 35px;
+    font-weight: 500;
+}
+.doctorHomePage_client_review_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.doctorHomePage_client_review_card_icon{
+    font-size: 45px !important;
+}
+.doctorHomePage_client_policy{
+    /* background: url("../../../img/Rectangle119.jpg") no-repeat center center fixed; */
+    background-color: #fff;
+    width: 100%;
+    height: 250px;
+    height: 250px;
+    /* background-position: center;
+    background-repeat: no-repeat; */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* .doctorHomePage_client_policy_card{
+    background: url("../../../img/Rectangle 163.jpg") no-repeat center center fixed;
+    width: 100%;
+    height: 250px;
+} */
+.doctorHomePage_client_policy_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+position: relative;
+}
+.doctorHomePage_client_policy_card>span{
+    position: absolute;
+    top: 30px;
+}
+.doctorHomePage_client_policy_card>span>img{
+    height: 100px;
+    object-fit: contain;
+}
+.doctorHomePage_client_policy_card>p{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.doctorHomePage_client_frequently_ask_question{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: #fff;
+    padding: 50px;
+}
+.doctorHomePage_client_frequently_ask_question>h6{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.doctorHomePage_client_frequently_ask_question>span{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.doctorHomePage_client_frequently_ask_question>span>h6{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.doctorHomePage_client_frequently_ask_question>span>p{
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.doctorHomePage_client_frequently_ask_question_cards{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.carousel .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+@media(max-width:600px){
+    .doctorHomePage_head{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .doctorHomePage_head_right{
+        flex: 1;
+        width: 100%;
+    }
+    .doctorHomePage_head_right>img{
+        height: 250px;
+    }
+    .doctorHomePage_head_left{
+        flex: 1;
+        padding: 20px;
+    }
+    .doctorHomePage_head_left>h6{
+        font-size: 22px;
+    }
+    .doctorHomePage_card{
+        width: 100%;
+        height:130px ;
+    }
+    .doctorHomePage_card_one, .doctorHomePage_card_two, .doctorHomePage_card_three{
+        width: 130px !important;
+        height: 100px;
+    }
+    .doctorHomePage_card_one>strong, .doctorHomePage_card_two>strong, .doctorHomePage_card_three>strong{
+        font-size: 20px;
+    }
+    .doctorHomePage_card_one>p, .doctorHomePage_card_two>p, .doctorHomePage_card_three>p{
+        font-size: 14px;
+    }
+    .doctorHomePage_card_two{
+        width: 135px !important;
+    }
+    .doctorHomePage_client_review {
+        width: 100%;
+    }
+    .doctorHomePage_client_review_text>h6{
+        font-size: 22px;
+        margin-left: 20px;
+    }
+    .doctorHomePage_client_review_card_icon{
+        font-size: 18px !important;
+    }
+    .doctorHomePage_client_policy{
+        width: 100%;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        height: 130px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .doctorHomePage_client_policy_card>span>img{
+        height: 40px;
+    }
+    .doctorHomePage_client_policy_card>img{
+        height: 70px;
+    }
+    .doctorHomePage_client_policy_card>span{
+        top: 12px;
+    }
+    .doctorHomePage_client_policy_card>p {
+        font-size: 10px;
+    }
+    .doctorHomePage_client_policy_card{
+        margin-top: 8px;
+    }
+    .doctorHomePage_client_frequently_ask_question{
+        width: 100%;
+        /* margin-left: 20px; */
+        padding: 20px;
+    }
+    .doctorHomePage_client_frequently_ask_question>span>p{
+        width: 93%;
+        text-align: justify;
+    }
+    .frequentlyaskquescard{
+        width: 93% !important;
+    }
+    .doctorHomePage_client_frequently_ask_question_cards{
+        width: 100%;
+    }
+}

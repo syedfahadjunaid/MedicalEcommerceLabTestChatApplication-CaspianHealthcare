@@ -1,0 +1,37 @@
+.trendingCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 165px;
+    width: 150px;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.trendingCard:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.trendingCard_img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trendingCard_img>img{
+    width: 125px;
+    height: 100px;
+    border-radius: 5px;
+}
+.trendingCard_details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+/* .alice-carousel__stage-item{
+    width: fit-content !important;
+} */

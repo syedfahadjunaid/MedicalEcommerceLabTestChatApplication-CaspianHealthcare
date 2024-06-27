@@ -1,0 +1,110 @@
+.css-1ehqt7t {
+  padding: 0 !important;
+  border-radius: 15px;
+  border: none !important;
+}
+.QuickOrderOrderPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 30px;
+  background-color: #fff;
+}
+.QuickOrderOrderPage_heading{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 80%;
+}
+.QuickOrderOrderPage_top{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 80%;
+}
+.QuickOrderOrderPage_left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.QuickOrderOrderPage_heading > h6 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.QuickOrderOrderPage_left > span {
+  /* margin-top: 10px; */
+  margin-bottom: 20px;
+}
+.QuickOrderOrderPage_left_add_address {
+  border: 1px solid black;
+  padding: 8px 15px;
+  color: #dc3545;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.QuickOrderOrderPage_right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.QuickOrderOrderPage_newaddress {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 15px;
+  border-radius: 10px !important;
+}
+.QuickOrderOrderPage_newaddress_form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+.QuickOrderOrderPage_newaddress_form > input,
+.QuickOrderOrderPage_newaddress_form > textarea,
+.QuickOrderOrderPage_newaddress_form > div {
+  width: 80%;
+  height: 40px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.QuickOrderOrderPage_newaddress_form > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.QuickOrderOrderPage_newaddress_form > div > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.QuickOrderOrderPage_newaddress_form > div > span > label {
+  margin-left: 5px;
+}
+.changeAddressButton {
+  border: transparent;
+  outline: transparent;
+  color: #fff;
+  background-color: #6c98ff;
+  padding: 8px 15px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+}
+@media only screen and (max-width:600px){
+  .QuickOrderOrderPage_top{
+    flex-direction: column;
+  }
+}

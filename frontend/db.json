@@ -1,0 +1,243 @@
+{
+  "admin": {
+    "email": "admin@admin.com",
+    "password": "password"
+  },
+  "products": [
+    {
+      "productName": "1",
+      "productShortDescription": "1",
+      "productDescription": "",
+      "productImages": {},
+      "productCategory": {
+        "label": "23",
+        "value": 1
+      },
+      "productBrand": {
+        "label": "sgsg",
+        "value": 1
+      },
+      "productUnitAmount": "111",
+      "productUnit": {
+        "label": "ml",
+        "value": "opt1"
+      },
+      "productPrice": "1112",
+      "productStock": "1313",
+      "productCode": "1313",
+      "id": 1
+    }
+  ],
+  "categories": [
+    {
+      "categoryName": "23",
+      "categoryBrand": {
+        "label": "jsdnjd",
+        "value": 1
+      },
+      "categoryImage": {},
+      "id": 1
+    }
+  ],
+  "brands": [
+    {
+      "brandName": "sgsg",
+      "brandImage": {},
+      "id": 1
+    }
+  ],
+  "AppearanceHomepage": [
+    {
+      "homepageTitle": "sefse",
+      "id": 1
+    },
+    {
+      "homepageTitle": "hdfh",
+      "homepageLink": "dfhdh",
+      "homepageAltTag": "dfhdf",
+      "homepageImage": {},
+      "id": 2
+    },
+    {
+      "homepageTitle": "gsvcgjsvdc",
+      "homepageLink": "scsdc",
+      "homepageAltTag": "sdcsdcds",
+      "homepageImage": {},
+      "id": 3
+    }
+  ],
+  "AppearanceProductDetailsWidget": [
+    {
+      "productDetailsWidgetLink": "dfd",
+      "productDetailsWidgetImage": {},
+      "id": 1
+    }
+  ],
+  "AppearanceAboutPage": [
+    {
+      "mainImg": {},
+      "title1": "qwerty",
+      "textForTitle1": "1234",
+      "img1ForSection": {},
+      "img2ForSection": {},
+      "img3ForSection": {},
+      "title2": "14214",
+      "textForTitle2": "214214",
+      "imgForCard1": {},
+      "titleForCard1": "12412412",
+      "textForCard1": "asfasfsaf",
+      "imgForCard2": {},
+      "titleForCard2": "asfafa",
+      "textForCard2": "asfafasf",
+      "imgForCard3": {},
+      "titleForCard3": "asfasfa",
+      "textForCard3": "asfafasf",
+      "id": 1
+    }
+  ],
+  "AppearanceHeader": [
+    {
+      "upperHeaderLinkName": "dhfh",
+      "upperHeaderLinkImage": {},
+      "id": 1
+    },
+    {
+      "upperHeaderLinkName": "upperHeaderLinkName",
+      "upperHeaderLinkImage": "",
+      "id": 2
+    },
+    {
+      "upperHeaderLinkName": "upperHeaderLinkName",
+      "upperHeaderLinkImage": "",
+      "id": 3
+    },
+    {
+      "upperHeaderLinkName": "upperHeaderLinkName",
+      "upperHeaderLinkImage": "",
+      "id": 4
+    }
+  ],
+  "AppearanceFooter": [
+    {
+      "quickLinks": [
+        {
+          "category": "1",
+          "id": 1
+        },
+        {
+          "category": "2",
+          "id": 2
+        },
+        {
+          "category": "3",
+          "id": 3
+        }
+      ],
+      "ourPolicies": [
+        {
+          "category": "1",
+          "id": 1
+        },
+        {
+          "category": "2",
+          "id": 2
+        },
+        {
+          "category": "3",
+          "id": 3
+        }
+      ],
+      "ourServices": [
+        {
+          "category": "1",
+          "id": 1
+        },
+        {
+          "category": "2",
+          "id": 2
+        },
+        {
+          "category": "3",
+          "id": 3
+        }
+      ],
+      "copyrightText": "Fahad",
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "customer": "#G-Customer:22",
+      "placedOn": "11 May, 2023",
+      "items": 1,
+      "paymentStatus": "Paid",
+      "deliveryStatus": "Delivered",
+      "deliveryType": "Regular",
+      "id": 1
+    }
+  ],
+  "doctors": [
+    {
+      "doctorPhoto": {},
+      "doctorFirstName": "Armin",
+      "doctorLastName": "Ali",
+      "doctorEmail": "armin@gmail.com",
+      "doctorMobile": "1345235245",
+      "doctorDOB": "2023-06-08",
+      "doctorGender": {
+        "label": "Male",
+        "value": "opt1"
+      },
+      "doctorZipcode": "25252",
+      "doctorCity": "Lucknow",
+      "doctorRole": [
+        1,
+        "Role3",
+        "Role2"
+      ],
+      "doctorAddress": "aerfdaa aefaef aefaefae awefafe awefeafaef ",
+      "doctorBio": "ajhvdjav ajvdjashv ajhvsjdhavshjvs afafaefefef aefefaef",
+      "doctorMainSpecialization": "skbfs",
+      "doctorSecondarySpecialization": "ajhavfje",
+      "doctorMedicalEducation": "ajevfjae",
+      "doctorExperience": "aefavefjv",
+      "id": 1
+    }
+  ],
+  "pages": [
+    {
+      "pageTitle": "Privacy Policy",
+      "pageLink": "www.google.com",
+      "published": true,
+      "textData": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, fugit sint repudiandae, at quo, excepturi natus delectus placeat in blanditiis doloremque officiis perferendis totam provident voluptatem beatae iure eius!",
+      "id": 1
+    },
+    {
+      "pageTitle": "Return Policy",
+      "pageLink": "http://www.caspian.com",
+      "published": true,
+      "textData": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, fugit sint repudiandae, at quo, excepturi natus delectus placeat in blanditiis doloremque officiis perferendis totam provident voluptatem beatae iure eius! Modi?",
+      "id": 2
+    },
+    {
+      "pageTitle": "Terms & Conditions",
+      "pageLink": "http://www.caspian.com",
+      "published": true,
+      "id": 3,
+      "textData": "Terms & Conditions Text Here"
+    }
+  ],
+  "labs": [
+    {
+      "labName": "dfgbdfvd",
+      "id": 3
+    },
+    {
+      "labName": "New Lab 1",
+      "labCategoryName": "Testing Lab Category",
+      "labBrandName": "dgvfjsgdvf",
+      "labImage": {},
+      "id": 4
+    }
+  ]
+}

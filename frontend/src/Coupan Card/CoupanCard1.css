@@ -1,0 +1,145 @@
+
+.css-16t99ji{
+    padding: 0 !important;
+}
+.coupanCard1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 326px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.coupanCard1>span{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.coupanCard1>span>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #28A745;
+    color: #fff;
+    border-radius: 8px;
+}
+.coupanCard1>span>p{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #28A745;
+}
+.coupanCard_p1{
+    margin-left: 5px;
+}
+.coupanCard1>div{
+    background-color: #28A745;
+    color: #fff;
+    border-radius: 8px;
+}
+.applycoupanmodal1{
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px !important;
+    
+}
+.coupanHeading1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #356FD2;
+    color: #fff;
+    padding: 15px 20px;
+}
+.coupanHeading1>span{
+    background-color: #ffd;
+    padding: 5px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.coupanHeading1>h6{
+    font-size: 25px;
+    font-weight: 500;
+}
+.coupanHeading_close1{
+    cursor: pointer;
+    color: #111;
+}
+.coupanEntery1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+.coupanEntery1>input{
+    outline: none;
+    border: none;
+    height: 40px;
+    text-align: center;
+}
+.coupanEntery1>h6{
+    color: #28A745;
+    cursor: pointer;
+}
+.coupanAvaliable1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 0px;
+    width: 90%;
+}
+.coupanAvaliable_top1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.coupanAvaliable_top1>h6{
+font-size: 18px;
+font-weight: 500;
+}
+.coupanAvaliable_top1>p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.coupanAvaliable_bottom1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.coupanAvaliable_bottom1>button{
+    border:1px solid #28A745;
+    outline: transparent;
+    color: #28A745;
+    background-color: #fff;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+@media(max-width:600px){
+    .coupanCard1{
+        width:326px ;
+        /* height: ; */
+    }
+}

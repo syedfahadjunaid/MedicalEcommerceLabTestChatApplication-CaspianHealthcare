@@ -1,0 +1,164 @@
+.myprofile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+.myprofile_left {
+  flex: 0.15;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  height: 70vh;
+  border-right: 2px solid black;
+ 
+  text-align: justify;
+  justify-content: space-between;
+  width: 100%;
+  position: sticky;
+  top: 80px;
+  z-index: 1;
+
+}
+.myprofile_left_top > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  margin-left: 50px;
+  color: #356fd2;
+  cursor: pointer;
+}
+.myprofile_left_top > span > h6 {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.myprofile_right {
+  flex: 0.8;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  width: 100%;
+ min-height: 100vh;
+ margin-top: 50px;
+}
+.myprofile_left_top {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.myprofile_left_bottom {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.myprofile_left_bottom > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  margin-left: 50px;
+  color: #356fd2;
+  cursor: pointer;
+}
+.myprofile_left_bottom > span > h6 {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.myprofile_right_heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #6c98ff;
+  padding: 5px 10px;
+}
+.myprofile_right_heading > h6 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.myprofile_right_profile {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.myprofile_right_profile > p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.myprofile_right_profile_upload {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.myprofile_right_form {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+.myprofile_right_form_form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: -170px;
+}
+.myprofile_right_form_form_top,.myprofile_right_form_form_bottom{
+    width: 100%;
+    display: flex;
+    align-items: center;justify-content: space-evenly;
+    width: 100%;
+     margin-bottom: 15px;
+}
+.myprofile_right_form_form_top>div,.myprofile_right_form_form_bottom>div{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.myprofile_right_form_form_top>div>input,.myprofile_right_form_form_bottom>div>input{
+    width: 350px;
+    height: 50px;
+    background-color: #E0E4EC;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+.uploaded_pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.uploaded_pic>img{
+    height: 80px;
+    object-fit: contain;
+}
+.myprofile_right_order{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+.myprofile_right_order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.myprofile_right_order_filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    flex-direction: row;
+    margin-top: 10px;
+    
+}

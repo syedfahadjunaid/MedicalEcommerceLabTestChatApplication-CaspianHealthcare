@@ -1,0 +1,40 @@
+# Get Admin
+GET http://localhost:3001/admin HTTP/1.1
+Content-Type: application/json
+
+###
+
+# Get all Users
+GET http://localhost:3001/products HTTP/1.1
+Content-Type: application/json
+
+###
+
+# Create a Product
+POST http://localhost:3001/products HTTP/1.1
+Content-Type: application/json
+
+{
+      "productName": "Product2",
+      "shortDescription": "ProductShortDesc",
+      "description": 1,
+      "gallery": [],
+      "productCategories": "productCategories",
+      "productBrand": "productBrand",
+      "productUnit": "productUnit",
+      "price": "price",
+      "stock": "stock",
+      "code": "code"
+    }
+
+###
+
+# Update a User
+PUT http://localhost:3001/products/1 HTTP/1.1
+Content-Type: application/json
+
+###
+
+# Delete a User
+DELETE http://localhost:3001/products/1 HTTP/1.1
+Content-Type: application/json

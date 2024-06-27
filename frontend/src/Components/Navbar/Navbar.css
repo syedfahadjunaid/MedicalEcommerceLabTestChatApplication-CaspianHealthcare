@@ -1,0 +1,242 @@
+.subnavdisplaynone{
+  display: none !important;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #2a7fba;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.navbar_link {
+  text-decoration: none;
+  color: #fff;
+}
+.navabr_search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid #111; */
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 5px 8px;
+}
+.navabr_search > input {
+  border: none;
+  outline: none;
+  text-align: center;
+  background-color: #fff;
+  color: #111;
+}
+.navabr_search_icon {
+  cursor: pointer;
+}
+.dropbtn {
+  /* background-color: #04AA6D; */
+  color: var(--main-heading);
+  font-size: 20px;
+  border: none;
+  outline: navajowhite;
+  margin-right: 15px;
+  padding-right: 10px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/* .navbar_link_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.navbar_link > p {
+  display: flex;
+  align-items: center;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.dropdown-content a {
+  color: #111;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.dropdown-content a:hover {
+  color: #2a7fba;
+  font-weight: 500;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+select {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+select:focus {
+  outline: none;
+}
+.navbar_mobile {
+  display: none;
+}
+.navbar_quick_button {
+  background-color: #28a745;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+@media (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+  .navbar_mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* margin-top: 5px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top: 0;
+    z-index: 111111;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid lightgray;
+  }
+  .navbar_mobile_left_icon {
+    color: #111;
+    font-size: 25px;
+    margin-left: 5px;
+  }
+  .navbar_mobile_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar_mobile_left > img {
+    margin-left: 10px;
+  }
+  .sidenav {
+    width: 0;
+   
+    z-index: 1;
+
+   
+
+    /* overflow-x: hidden; */
+    transition: 0.2s;
+  }
+  .mobile_menu {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 300px;
+    z-index: 11111111;
+    background-color: #ffffff;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 40px;
+    overflow-y: scroll;
+  }
+  .mobile_menu_login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+  }
+  .mobile_menu_login_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .mobile_menu_login_left > span {
+    margin-left: 10px;
+  }
+  .mobile_menu_login_left_icon {
+    font-size: 50px !important;
+  }
+  .mobile_menu_login_left > span > h6 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .mobile_menu_login_left > span > p {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .mobile_menu_buy_medicine {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+  }
+  .mobile_menu_buy_medicine {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* margin-left: 50px; */
+    padding-left: 50px;
+  }
+  .mobile_menu_buy_medicine > span {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .mobile_menu_buy_medicine > span > p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .mobile_menu_buy_contact {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* margin-left: 50px; */
+    padding-left: 50px;
+  }
+  .mobile_menu_buy_contact > span {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .mobile_menu_buy_contact > span > p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}

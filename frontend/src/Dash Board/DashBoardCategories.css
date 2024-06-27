@@ -1,0 +1,75 @@
+.dashboardCategories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.dashboardCategories_heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F4F4;
+    padding: 15px 5px;
+    width: 100%;
+    border-radius: 10px;
+}
+.dashboardCategories_heading>h6{
+    font-size: 25px;
+    font-family: 400;
+    margin-left: 5px;
+    color: #7366FF;
+}
+.dashboardCategories_heading_icon{
+   color: #7366FF;
+   font-size: 35px;
+}
+.dashboardCategories_doctor,.dashboardCategories_patients,.dashboardCategories_appoiments,.dashboardCategories_labtest,.dashboardCategories_setting{
+    margin-top: 15px;
+margin-bottom: 25px;
+}
+.dashboardCategories_doctor{
+    height: 50px;
+}
+.dashboardCategories_doctor_detail{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.dashboardCategories_doctor_detail>p{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #6E798C;
+}
+.dashboardCategories_doctor>span{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.dashboardCategories_patients>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.dashboardCategories_labtest>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.dashboardCategories_setting>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.dashboardCategories_img{
+    height: 180px;
+    object-fit: contain;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

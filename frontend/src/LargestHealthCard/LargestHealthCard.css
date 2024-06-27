@@ -1,0 +1,89 @@
+.largesthealthcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  
+}
+.largesthealthcard_heading {
+  width: 100%;
+  /* background-color: #111; */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85px;
+}
+.largesthealthcard_heading > h6 {
+  font-size: 35px;
+  font-weight: 500;
+  color: #6E798C;
+}
+.largesthealthcard_card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 40px 0;
+
+}
+
+.largesthealthcard_card > span {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+
+}
+.largesthealthcard_card > span > div {
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #28A745;
+  color: #fff;
+  border-radius: 5px;
+}
+.largesthealthcard_card > span > div > strong {
+  font-size: 28px;
+  font-weight: 700;
+}
+.largesthealthcard_card > span > div > p {
+  font-size: 22px;
+}
+@media(max-width:600px){
+    .largesthealthcard{
+        width: 100%;
+    }
+    .largesthealthcard_heading{
+        width: 100%;
+    }
+    .largesthealthcard_heading > h6{
+        font-size: 25px;
+        text-align: center;
+    }
+    .largesthealthcard_card{
+        width: 100%;
+    }
+    .largesthealthcard_card>img{
+        width: 100%;
+    }
+    .largesthealthcard_card > span>div{
+        width: 110px;
+        height: 110px;
+
+    }
+    .largesthealthcard_card > span > div > p{
+        text-align: center;
+    }
+}

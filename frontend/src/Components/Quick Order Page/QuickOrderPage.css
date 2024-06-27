@@ -1,0 +1,238 @@
+.quickpage {
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  position: relative;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #fff;
+}
+.quickpage_left {
+  flex: 0.25;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  position: sticky;
+  top: 0;
+  height: 500px;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 0px 20px;
+  background-color: #fff;
+}
+.quickpage_left > h6 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.quickpage_left > p {
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+  color: #6e798c;
+}
+.quickpage_left_upload,
+.quickpage_left_camera {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #6e798c;
+  width: 220px;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+.quickpage_left_upload > input {
+  width: 200px;
+  position: absolute;
+  margin-bottom: 12px;
+  opacity: 0;
+}
+.quickpage_left_camera,
+.quickpage_left_upload {
+  flex-direction: column;
+}
+.quickpage_left_camera > img {
+  height: 50px;
+}
+.quickpage_right {
+  flex: 0.55;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.quickpage_right > h6 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #2a7fba;
+}
+.quickpage_right > p {
+  margin-bottom: 10px;
+  color: #dc3545;
+  font-weight: 500;
+}
+.quickpage_right_sample {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.quickpage_left_upload_icon {
+  color: #9a5bff;
+  font-size: 50px !important;
+  margin-right: 10px;
+  position: relative;
+}
+.quickpage_left_attached {
+  width: 90%;
+  background-color: #6e798c;
+  margin-left: 20px;
+  height: 65px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.quickpage_left_attached > img {
+  object-fit: contain;
+  height: 50px;
+}
+.quickpage_left_button {
+  margin-left: 20px !important;
+}
+.quickpage_right_sample_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.quickpage_right_sample_right > ul > li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.quickpage_right_sample_right > ul > li > p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.quickpage_right_sample_left > img {
+  height: 375px;
+}
+.quickpage_medicine {
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  padding-bottom: 30px;
+  /* border: 1px solid black; */
+}
+.quickpage_medicine_heading {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 40%;
+  margin-top: 30px;
+}
+.quickpage_medicine_heading > h6 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.quickpage_medicine_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 20px;
+}
+.quickpage_medicine_top_left {
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex: 0.45;
+  width: 90%;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.quickpage_medicine_top_left > span {
+  display: flex;
+  align-self: center;
+  justify-content: space-evenly;
+  width: 80%;
+}
+.quickpage_medicine_top_left > span > input {
+  margin-right: 30px;
+}
+.quickpage_medicine_top_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  padding: 50px;
+}
+.quickpage_left_button {
+  padding: 8px 15px;
+  border: transparent;
+  outline: transparent;
+  color: #fff;
+  background-color: #6c98ff;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.quickpage_left_button1 {
+  background-color: #6c98ff;
+  border: transparent;
+  outline: transparent;
+  color: #fff;
+  padding: 8px 15px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 87px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+  .quickpage_left {
+    width: 90%;
+    flex: 0.9;
+    border: 1px solid lightgrey;
+  }
+  .quickpage_right {
+    display: none;
+  }
+  .quickpage_medicine_top_right{
+    display: none;
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1400px) {
+  .quickpage_right {
+    flex: 0.65;
+  }
+  .quickpage_right_sample_left {
+    flex: 0.3;
+  }
+  .quickpage_right_sample_right {
+    flex-direction: 0.65;
+  }
+}

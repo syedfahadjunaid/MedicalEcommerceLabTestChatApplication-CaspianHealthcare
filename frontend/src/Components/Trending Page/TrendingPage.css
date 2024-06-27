@@ -1,0 +1,314 @@
+.trendingpage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  /* position: relative; */
+}
+.trendingpage_top {
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.trendingpage_left {
+  flex: 0.2;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+  /* padding-top: 10px; */
+  padding-bottom: 10px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  /* margin-left: -23px; */
+  /* margin-top: -10px; */
+}
+.trendingpage_right {
+  flex: 0.8;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: flex-start;
+}
+.trendingpage_right_title {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  margin-left: 96px;
+}
+
+.trendingpage_right_title > h6 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.trendingpage_right_cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+.home_heading_text {
+  background-color: #111;
+  color: #fff;
+  width: 83%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85px;
+  margin-top: 10px;
+}
+
+.home_second {
+  height: 250px;
+  background-color: #111;
+  width: 83%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow-x: scroll;
+  margin-top: 15px;
+}
+.home_second_card {
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.home_second_card_text {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+  text-align: center;
+}
+.trendingpage_filter {
+  display: none;
+}
+@media (max-width: 600px) {
+  .trendingpage {
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .trendingpage_right_title > h6{
+    font-size: 18px;
+  }
+  .trendingpage_filter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    /* border: 1px solid black; */
+    /* height: 50px; */
+    /* margin-top: 15px; */
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    position: relative;
+  }
+  .trendingpage_filter_top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    /* border: 1px solid black; */
+    height: 50px;
+    /* margin-top: 15px; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .trendingpage_filter_left {
+    flex: 0.45;
+    border-right: 1px solid black;
+  }
+  .trendingpage_filter_left > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .trendingpage_filter_left > span > p {
+    margin-left: 5px;
+  }
+  .trendingpage_filter_right > span > p {
+    margin-left: 5px;
+  }
+  .trendingpage_filter_right {
+    flex: 0.45;
+  }
+  .trendingpage_filter_right > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .trendingpage_left {
+    display: none;
+  }
+  .sortMenu {
+    width: 100%;
+    min-height: 310px;
+    background-color: #fff;
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    animation: dropdown 0.5s ease-in-out linear ;
+  }
+  @keyframes dropdown {
+    0%{
+      top: 0;
+    }
+    100%{
+      top: 120px;
+    }
+    
+  }
+  .sortMenu_heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+  }
+  .sortMenu_heading > p {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 25px;
+  }
+  .sortMenu_heading_close {
+    font-size: 25px;
+    margin-right: 15px;
+    margin-top: 10px;
+  }
+  .sortMenu_option {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  .sortMenu_option > span {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .sortMenu_option > span > p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 15px;
+  }
+  .sortMenu_option > span>input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+  
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+  
+    position: relative;
+    top: 4px;
+  }
+  
+  .sortMenu_option > span>input:checked {
+    border: 6px solid #999;
+    outline: unset !important /* I added this one for Edge (chromium) support */
+  }
+  .filterMenu_option{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+  }
+  .filterMenu_option_left{
+    flex: 0.3;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* border-right: 1px solid black; */
+  }
+  .filterMenu_option_right{
+    flex: 0.6;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+  .filterMenu_option_right_brands{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+  }
+  .filterMenu_option_right_brands>div{
+    border: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .filterMenu_option_right_brands>div>input{
+    border: transparent;
+    outline: transparent;
+
+  }
+  .filterMenu_option_right_brands_brand{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+  }
+  .filterMenu_option_right_brands_brand>div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* margin-left: 20px; */
+  }
+  .filterMenu_option_right_brands_brand>div>input{
+    margin-right: 10px;
+  }
+  .filterMenu_option_right_brands_brand>div>span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .trendingpage_right{
+    flex: 1;
+  }
+  .home_second{
+    justify-content: flex-start;
+    width: 100%;
+  }
+}

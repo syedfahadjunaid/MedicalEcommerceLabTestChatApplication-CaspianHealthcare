@@ -1,0 +1,13 @@
+@media screen and (max-width: 1150px) {
+    .MainLabTestCartPage-main {
+        flex-direction: column !important;
+    }
+    .MainLabTestCartPage-left {
+        width: 100% !important;
+    }
+    .MainLabTestCartPage-right {
+        width: 100% !important;
+        padding-top: 2rem !important;
+    }
+}
+

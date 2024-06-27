@@ -1,0 +1,30 @@
+.quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+    background-color: lightgrey;
+    border-radius: 8px;
+}
+.quantity_decrease{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.quantity_qantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: lightgrey;
+    width: 40px;
+    border-radius: 5px;
+}
+.quantity_increase{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}

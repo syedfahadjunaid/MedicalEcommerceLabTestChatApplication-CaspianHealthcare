@@ -1,0 +1,72 @@
+.labtestnav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly ;
+    background-color: #F2F2F2;
+    height: 60px;
+}
+.labtestnav_location{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  /* border: 1px solid black; */
+    padding: 5px;
+    margin-top: 3px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fff !important;
+}
+.labtestnav_location>input{
+    border: none;
+    outline: none;
+    height: 100%;
+
+}
+.labtestnav_alltab>select{
+    margin-top: 3px;
+    width: 200px;
+    height: 50px;
+}
+.labtestnav_search{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid #C4C4C4; */
+    padding: 5px;
+    height: 50px;
+    width: 300px;
+    margin-top: 3px;
+    background-color: #fff !important;
+}
+.labtestnav_search>input{
+    border: none;
+    outline: none;
+}
+.testSelect{
+    width: 150px;
+    height: 50px;
+}
+.labtestnav>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.labtestnav_button{
+    margin-right: 10px !important;
+}
+
+.lab-test-location-input {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.lab-test-location-input:hover {
+    background-color: grey;
+    color: white;
+}
+
+@media(max-width:600px){
+    .labtestnav{
+   display: none;
+    }
+}

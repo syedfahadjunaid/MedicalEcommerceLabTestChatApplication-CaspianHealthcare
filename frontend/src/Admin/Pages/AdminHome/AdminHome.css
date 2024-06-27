@@ -1,0 +1,4 @@
+.admin-home-section-doctors-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}

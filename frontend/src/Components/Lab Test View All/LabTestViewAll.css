@@ -1,0 +1,98 @@
+.labtestViewall{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+}
+.labtestViewall_banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.labtestViewall_heading{
+    display: flex;
+    align-items: center;
+    width: 83%;
+    margin-bottom: 20px;
+
+}
+.labtestViewall_heading>h6{
+    font-size: 35px;
+    font-weight: 500;
+}
+.labtestViewall_sub_heading{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 83%;
+}
+.labtestViewall_sub_heading>p{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+    cursor: pointer;
+    margin-right: 50px;
+}
+.labtestViewall_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.home_heading_text{
+    background-color: #111;
+    color: #fff;
+    width: 83%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85px;
+    margin-top: 10px;
+}
+.home_heading_text_second{
+    display: flex;
+    justify-content: space-between !important;
+}
+.home_heading_text>h6{
+    font-size: 35px;
+    font-weight: 400;
+}
+.lab_test_active1{
+    background-color: #7b7575;
+    color: #fff;
+    border-color: transparent;
+  }
+@media(max-width:600px){
+    .labtestViewall_sub_heading{
+        overflow-x: scroll;
+    }
+    .labtestViewall_card {
+        width: 100%;
+    }
+}
+@media only screen and (min-width:601px) and (max-width:1349px){
+    .labtestViewall_card{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+@media only screen and (min-width:1350px) and (max-width:1600px){
+    .labtestViewall_card{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

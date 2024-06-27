@@ -1,0 +1,58 @@
+.labpatner{
+    display: flex;
+    width:98%;
+    height: 250px;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+
+}
+.labpatner_left{
+    flex: 0.6;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+
+}
+.labpatner_left>h6{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.labpatner_left>p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #A4A4A4;
+}
+.labpatner_right{
+    flex: 0.3;
+    background-image: url('https://static.1mg.com/images/labs/angle.png');
+    height: 222px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.labpatner_left>p{
+    text-align: justify;
+}
+@media(max-width:600px){
+    .labpatner{
+        width: 100%;
+        height: fit-content;
+        padding: 10px;
+        align-items: flex-start;
+        margin-left: 0px;
+    }
+    .labpatner_left>p{
+        text-align: justify;
+    }
+}

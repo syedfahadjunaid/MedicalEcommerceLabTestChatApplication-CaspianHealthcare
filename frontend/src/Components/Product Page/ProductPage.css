@@ -1,0 +1,116 @@
+.productPage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.trendingpage_right_categories {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.trendingpage_right_categories_kids {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.trendingpage_right_categories_kids_img {
+  /* position: inherit; */
+  position: absolute;
+  top: 20px;
+}
+.trendingpage_right_categories_kids > span {
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+  color: #28a745;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 500;
+  border-bottom: 1px solid #28a745;
+  border-left: 1px solid #28a745;
+  border-right: 1px solid #28a745;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  margin-top: 10px;
+}
+.trendingpage_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  position: relative;
+}
+.trendingpage_left {
+  /* flex: 0.25; */
+  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+}
+.trendingpage_right {
+  flex: 0.75;
+  display: flex;
+  flex-direction: column;
+}
+.trendingpage_right_title {
+  margin-top: -75px;
+  margin-bottom: -70px;
+}
+
+.trendingpage_right_title > h6 {
+  font-size: 36px;
+  font-weight: 500;
+}
+.trendingpage_right_cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.home_heading_text {
+  background-color: #111;
+  color: #fff;
+  width: 83%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85px;
+  margin-top: 10px;
+}
+
+.home_second {
+  height: 250px;
+  background-color: #111;
+  width: 83%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow-x: scroll;
+  margin-top: 15px;
+}
+.home_second_card {
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.home_second_card_text {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .trendingpage_right_categories {
+    display: none;
+  }
+}

@@ -1,0 +1,12 @@
+.cardhovercard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+}
+.cardhovercard_heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

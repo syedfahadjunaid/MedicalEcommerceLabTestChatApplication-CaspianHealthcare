@@ -1,0 +1,24 @@
+/* .contactus_page-lowersection-cards {
+    display: grid;
+    grid-template-columns: (3, 1fr);
+} */
+@media screen and (max-width: 2000px) {
+    
+}
+@media screen and (max-width: 1150px) {
+    .contactus_page {
+        flex-direction: column;
+    }
+    .contactus_page-left {
+        width: 100%;
+    }
+    .contactus_page-left-input-name-mobile {
+        flex-direction: column;
+    }
+    .contactus_page-right {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 650px) {
+    
+}

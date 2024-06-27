@@ -1,0 +1,98 @@
+.labtestpay {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.labtestpay_top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 30px;
+}
+.labtestpay_top_left {
+  flex: 0.55;
+}
+.labtestpay_top_left_heading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.labtestpay_top_left_heading > span:first-child {
+  font-size: 25px;
+  font-weight: 500;
+}
+.labtestpay_top_left_heading > span:last-child {
+  font-size: 18px;
+  font-weight: 500;
+  color: #dc3545;
+  cursor: pointer;
+}
+.labtestpay_top_left_patient_details {
+  display: flex;
+  align-self: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.labtestpay_top_left_patient_details_heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  padding: 15px 10px;
+  background-color: #bec4cf;
+}
+.labtestpay_top_left_patient_details_heading > h6 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+.labtestpay_top_left_patient_details_heading > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #dc3545;
+}
+.labtestpay_top_left_patient_details_heading > span > p {
+  margin-left: 5px;
+}
+.labtestpay_top_left_patient_details_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  /* border: 1px solid black; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 15px 10px;
+}
+.labtestpay_top_left_patient_details_container_patients,
+.labtestpay_top_left_patient_details_container_address,
+.labtestpay_top_left_patient_details_container_timeanddate {
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 200px;
+  height: 200px;
+}
+.labtestpay_top_left_patient_details_container_patients_span,.labtestpay_top_left_patient_details_container_address_span,.labtestpay_top_left_patient_details_container_timeanddate_span {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 71px;
+}
+.labtestpay_top_right {
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+}

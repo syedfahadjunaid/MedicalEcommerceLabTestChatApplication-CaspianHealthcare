@@ -1,0 +1,389 @@
+.alldoctor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  overflow-x: none;
+}
+.alldoctor_emergency {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 76%;
+}
+.alldoctor_emergency_left {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 500px;
+  background-color: #dc3545;
+  color: #fff;
+  height: 50px;
+}
+.alldoctor_emergency_left > p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.alldoctor_doctor_search {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 100%;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: #fff;
+}
+.alldoctor_doctor_search_left {
+  display: flex;
+align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  /* color: #fff; */
+}
+.alldoctor_doctor_search_left_top > h6 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 10px;
+  color: #fff;
+}
+.alldoctor_doctor_search_left_top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px 20px;
+  width: 600px;
+  height: 100px;
+  background-color: #2a7fba;
+  flex-direction: column;
+}
+.alldoctor_doctor_search_left_top > span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.alldoctor_doctor_search_left_top > span > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.alldoctor_doctor_search_left_top_location {
+  color: #dc3545;
+}
+.alldoctor_doctor_search_left_top > span > div:first-child {
+  margin-right: 15px;
+}
+.alldoctor_doctor_search_left_top > span > div > input {
+  border: none;
+  outline: none;
+}
+
+.alldoctor_doctor_search_left_bottom {
+  border: 1px solid black;
+  width: 600px;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+.alldoctor_doctor_search_left_bottom > p {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 400;cursor: pointer;
+}
+.alldoctor_doctor_search_right {
+  flex: 0.4;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid black;
+  padding: 10px 5px;
+  border-radius: 8px;
+}
+.alldoctor_doctor_search_right_chooseUs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  /* border-bottom: 1px solid black; */
+  padding-bottom: 10px;
+}
+.alldoctor_doctor_search_right_chooseUs > h6 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.alldoctor_doctor_search_right_chooseUs > p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.alldoctor_doctor_search_right_links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 20px;
+
+  width: 100%;
+  padding: 10px 0px;
+}
+.alldoctor_display_cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+.alldoctor_display_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.alldoctor_display_card_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 85px;
+}
+.alldoctor_specialties_cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 25px;
+  background-color: #fff;
+}
+.alldoctor_specialties_cards_heading{
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.alldoctor_specialties_cards_heading > h6 {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.alldoctor_specialties_card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+}
+.alldoctor_doctor_search_right_links_icon_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #6e798c;
+  font-size: 16px;
+  font-weight: 500;
+}
+.alldoctor_doctor_search_right_links_icon {
+  color: #2a7fba;
+  margin-right: 10px;
+}
+.alldoctor_specialties_specialties_cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 83%;
+}
+.alldoctor_specialties_specialties_cards_heading{
+width: 80%;
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+}
+.alldoctor_specialties_specialties_cards_heading > h6 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.alldoctor_specialties_specialties_cards_card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.doctorsearchfilter_top {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.doctorsearchfilter_top > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.doctorsearchfilter_top > span:last-child {
+  border: 1px solid black;
+  margin-right: 15px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+.doctorsearchfilter_top > span > p {
+  margin-left: 10px;
+}
+.doctorsearchfilter_top_icon {
+  margin-right: 10px;
+  color: #ff9800;
+}
+.search_ads {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 25px;
+}
+.search_ads_left ,.search_ads_right{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search_ads_left > img,.search_ads_right>img {
+  height: 150px;
+  object-fit: contain;
+}
+.search_ads_left > span ,.search_ads_right>span{
+  position: absolute;
+  top: 60px;
+}
+@media (max-width: 600px) {
+  .alldoctor {
+    width: 100%;
+  }
+  .alldoctor_emergency {
+    flex-direction: column;
+    width: 100%;
+  }
+  .alldoctor_emergency_left {
+    width: 100%;
+  }
+  .alldoctor_emergency_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .alldoctor_display_cards {
+    width: 100%;
+    overflow-x: scroll;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .alldoctor_display_card {
+    margin-right: 10px;
+  }
+  .alldoctor_doctor_search {
+    flex-direction: column;
+  }
+  .alldoctor_doctor_search_left{
+    width: 100%;
+  }
+  .alldoctor_doctor_search_left_top > span > div {
+    width: 160px;
+  }
+  .alldoctor_doctor_search_left_top > span > div > input {
+    width: 100px;
+  }
+  .alldoctor_doctor_search_left_top {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .alldoctor_doctor_search_left_bottom {
+    width: 380px;
+  }
+  .alldoctor_doctor_search_right {
+    flex: 1;
+    margin-top: 20px;
+  }
+  .alldoctor_display_card > img {
+    height: 120px;
+  }
+  .alldoctor_display_card_text {
+    top: 35px;
+  }
+  .alldoctor_display_card_text > p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .alldoctor_specialties_cards {
+    width: 100%;
+    margin-left: 15px;
+  }
+  .alldoctor_specialties_card {
+    justify-content: center;
+  }
+  .alldoctor_doctor_search_left_top > h6{
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width:1250px) and (max-width:1465px){
+  .alldoctor_specialties_card{
+    width: 90%;
+  }
+  .alldoctor_specialties_specialties_cards_card{
+    width: 100%;
+  }
+  .alldoctor_specialties_cards_heading{
+    width: 90%;
+  }
+  .alldoctor_specialties_specialties_cards{
+    width: 100%;
+  }
+}
+@media only screen and (min-width:601px) and (max-width:1249px){
+  .alldoctor_specialties_card{
+    width: 100%;
+  }
+  .alldoctor_specialties_cards_heading{
+    width: 90%;
+  }
+  .alldoctor_specialties_specialties_cards_card{
+    width: 100%;
+  }
+  .alldoctor_specialties_specialties_cards{
+    width: 100%;
+  }
+}

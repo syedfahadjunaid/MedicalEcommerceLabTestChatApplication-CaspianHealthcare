@@ -1,0 +1,40 @@
+.orderconfirm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.orderconfirm_top{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.orderconfirm_top>p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.orderconfirm_top>p:first-child{
+    font-size: 18px;
+    font-weight: 500;
+}
+.orderconfirm_top>p:last-child{
+    font-size: 18px;
+    font-weight: 500;
+}
+.orderconfirm_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+}
+.orderconfirm_bottom>span:last-child{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
